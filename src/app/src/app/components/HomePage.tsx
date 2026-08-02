@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import { ArrowRight, Globe, ShieldCheck, Zap, TrendingUp, CheckCircle, Package } from "lucide-react";
 import { motion } from "motion/react";
 import { useLanguage } from "../context/LanguageContext";
-import WorldTradeMap from "./WorldTradeMap";
+import { WorldTradeMap } from "./WorldTradeMap";
 
 const factoryImage = "https://images.unsplash.com/photo-1717386255773-1e3037c81788?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhbHVtaW51bSUyMG1ldGFsJTIwaW5kdXN0cmlhbCUyMGZhY3Rvcnl8ZW58MXx8fHwxNzg1NTY0Mzc2fDA&ixlib=rb-4.1.0&q=80&w=1080";
 
