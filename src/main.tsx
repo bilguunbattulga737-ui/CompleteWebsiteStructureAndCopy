@@ -1,7 +1,5 @@
+import { createRoot } from "react-dom/client";
+import App from './app/src/app/App.tsx';
+import './default_shadcn_theme.css';
 
-  import { createRoot } from "react-dom/client";
-  import App from './src/app/App.tsx'
- import './src/styles/...css'
-
-  createRoot(document.getElementById("root")!).render(<App />);
-  
+createRoot(document.getElementById("root")!).render(<App />);
