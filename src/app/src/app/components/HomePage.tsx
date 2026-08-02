@@ -107,7 +107,7 @@ function HeroCarousel() {
   );
 }
 
-const benefitIcons = [Globe, ShieldCheck, Zap, TrendingUp];
+const benefitIcons = [Globe, ShieldCheck, Zap, TrendingUp, CheckCircle];
 const serviceIcons = [Package];
 
 export function HomePage() {
